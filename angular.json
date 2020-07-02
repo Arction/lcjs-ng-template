@@ -13,6 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "@arction/lcjs"
+            ],
             "outputPath": "dist/lcjs-ng-template",
             "index": "src/index.html",
             "main": "src/main.ts",
