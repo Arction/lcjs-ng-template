@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~11.2.12",
     "@angular/platform-browser-dynamic": "~11.2.12",
     "@angular/router": "~11.2.12",
-    "@arction/lcjs": "^3.3.0",
+    "@arction/lcjs": "^3.4.0",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.3",
     "zone.js": "~0.10.2"
