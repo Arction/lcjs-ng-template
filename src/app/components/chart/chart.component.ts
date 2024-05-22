@@ -1,5 +1,5 @@
 import { Component, OnDestroy, afterNextRender } from '@angular/core';
-import { AxisScrollStrategies, Themes } from '@arction/lcjs';
+import { AxisScrollStrategies, Themes } from '@lightningchart/lcjs';
 import { DataService } from '../../services/data/data.service';
 import { LcContextService } from '../../services/lc-context/lc-context.service';
 

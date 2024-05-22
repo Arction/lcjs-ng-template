@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LightningChart, lightningChart } from '@arction/lcjs';
+import { LightningChart, lightningChart } from '@lightningchart/lcjs';
 
 @Injectable({
   providedIn: 'root',
