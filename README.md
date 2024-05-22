@@ -5,6 +5,12 @@
 - Run adjacent test server with `cd test-server && npm i && node index`
 - Run with `ng serve` (requires globally installed Angular CLI), and open at http://localhost:4200.
 
+All LightningChart JS oriented code changes (not code changes created by Angular CLI initialization) are isolated into [this 1 commit](https://github.com/Arction/lcjs-ng-template/commit/ede278b599c6824fd2625487f69ed44504e24f9a).
+
+End result:
+
+![image](https://github.com/Arction/lcjs-ng-template/assets/55391673/84b8fb8b-08d8-4bd7-b054-8da865f4f3a4)
+
 For more information, please see [Angular x LightningChart JS documentation](https://lightningchart.com/js-charts/docs/frameworks/angular)
 
 ---
