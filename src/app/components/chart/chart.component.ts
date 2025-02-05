@@ -25,8 +25,7 @@ export class ChartComponent implements OnDestroy {
         this.containerId
       ) as HTMLDivElement;
       const chart = lc.ChartXY({ container, theme: Themes.light });
-      const axisX = chart
-        .getDefaultAxisX()
+      const axisX = chart.axisX
         .setScrollStrategy(AxisScrollStrategies.progressive)
         .setDefaultInterval((state) => ({
           end: state.dataMax ?? 0,
